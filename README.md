@@ -1,3 +1,10 @@
+# Friendly folk of DOC++
+
+For the detail, see http://docpp.sourceforge.net/
+I made it compatible with gcc 7.4
+
+# Original README
+
 DOC++ 3.4.10
 December 22, 2002
 README: General informations
