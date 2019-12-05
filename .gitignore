@@ -1,0 +1,27 @@
+*.Po
+# files made by ./configure
+config.h
+config.log
+config.Po
+config.status
+Makefile
+Makefile.in
+!./Makefile
+POTFILES
+stamp-h1
+
+# executable
+*.o
+
+# some generated files
+config.cc
+cpp.cc
+doc.cc
+libintl.h
+ref-add.sed
+ref-del.sed
+charset.alias
+comment.cc
+
+# static libraries
+libintl.a
