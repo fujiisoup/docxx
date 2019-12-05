@@ -25,7 +25,7 @@
 #include "config.h"
 
 #include <assert.h>
-#include <fstream.h>
+#include <fstream>
 #include <getopt.h>
 #include <locale.h>
 #include <stdio.h>

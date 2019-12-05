@@ -23,7 +23,7 @@
 %{
 #include <assert.h>
 #include <ctype.h>
-#include <iostream.h>
+#include <iostream>
 #include <stdio.h>
 
 #include "doc.h"

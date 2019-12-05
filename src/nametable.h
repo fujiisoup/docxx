@@ -25,7 +25,7 @@
 #define	_NAME_TABLE_H
 
 #include <assert.h>
-#include <iostream.h>
+#include <iostream>
 
 #include "datahashtable.h"
 

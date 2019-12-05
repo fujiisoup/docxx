@@ -26,7 +26,7 @@
 #define _DATAHASHTABLE_H
 
 #include <assert.h>
-#include <iostream.h>
+#include <iostream>
 #include <stdlib.h>
 
 #include "McDArray.h"
