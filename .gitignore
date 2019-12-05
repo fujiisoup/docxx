@@ -10,9 +10,6 @@ Makefile.in
 POTFILES
 stamp-h1
 
-# executable
-*.o
-
 # some generated files
 config.cc
 cpp.cc
@@ -23,6 +20,32 @@ ref-del.sed
 charset.alias
 comment.cc
 doc2dbxml.cc
+doc2dbsgml.cc
+doc2html.cc
+doc2tex.cc
+doc2xml.cc
+docify.cc
+java.cc
+php.cc
+promote.cc
+readfiles.cc
+tex2gif.cc
+
+fr.gmo
+ja.gmo
+ro.gmo
+ru.gmo
+
+ClassGraph.class
+ClassGraphPanel.class
+ClassLayout.class
+doc/
+
+# executable
+*.o
+doc++
+docify
+promote
 
 # static libraries
 libintl.a

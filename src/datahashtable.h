@@ -349,14 +349,14 @@ public:
 		++tot;
 		if(!has(element[i].item))
 		    {
-		    cout << "Inconsistency detected in class DataHashTable\n";
+		    std::cout << "Inconsistency detected in class DataHashTable\n";
 		    return 0;
 		    }
 		}
 
 	if(tot != thenum)
 	    {
-	    cout << "Inconsistency detected in class DataHashTable\n"; 
+	    std::cout << "Inconsistency detected in class DataHashTable\n"; 
 	    return 0;
 	    }
 	return element.isConsistent();
@@ -369,7 +369,7 @@ public:
 	{
 	const HashItem*	item;
 	for(item = h.first(); item; item = h.next())
-	    out << "    " << *item << "\t\t" << h[*item] << endl;
+	    out << "    " << *item << "\t\t" << h[*item] << std::endl;
 	return out;
         }
 #endif

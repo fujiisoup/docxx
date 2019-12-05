@@ -68,7 +68,7 @@ void makeGifs(const char *dir, const char *gifdb)
     printf(_("Processing file `%s'\n"), gifdb);
 #endif
 
-    ifstream gifFile((const char *)gifdb);
+    std::ifstream gifFile((const char *)gifdb);
     if(gifFile)
 	{
 	gifFile >> gifs;
@@ -88,7 +88,7 @@ void makeGifs(const char *dir, const char *gifdb)
 
     if(texFile.length() > 0)
 	{
-	ifstream env(texFile.c_str());
+	std::ifstream env(texFile.c_str());
 	if(env)
 	    while(env)
 		{
@@ -113,7 +113,7 @@ void makeGifs(const char *dir, const char *gifdb)
 
     if(texTitle.length() > 0)
 	{
-	ifstream title(texTitle.c_str());
+	std::ifstream title(texTitle.c_str());
 	if(title)
 	    while(title)
 		{
